@@ -27,7 +27,8 @@ export default function Phone({ device }: IPropsType) {
           width={100}
           height={100}
           alt="photo"
-          className="absolute top-[7.5rem] left-[6.1rem] w-[7.8rem] h-[9.7rem] gamsung-filter"
+          id="selectedImage"
+          className="absolute top-[7.5rem] left-[6.1rem] w-[7.8rem] h-[9.7rem]"
         />
       </div>
     </>
