@@ -28,4 +28,8 @@ body {
   .heart-background {
     background-image: url("/image/heart-background.gif");
   }
+
+  .gamsung-filter {
+    filter: brightness(110%) sepia(50%) contrast(110%);
+  }
 }
