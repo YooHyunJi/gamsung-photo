@@ -31,7 +31,7 @@ export default function Button({ text }: IPropsType) {
       className="bg-[#ff5ea6] text-white px-[1rem] py-[0.5rem] text-[1.5rem] font-Tear"
     >
       {text}
-      <input type="file" id="photoInput" accept="image/*" className="w-0" />
+      <input type="file" id="photoInput" accept="image/*" className="hidden" />
     </button>
   );
 }
